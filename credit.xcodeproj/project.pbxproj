@@ -14,6 +14,9 @@
 		15CA226C1D2C93FC00CB35E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CA226A1D2C93FC00CB35E2 /* LaunchScreen.storyboard */; };
 		15CA22771D2C93FC00CB35E2 /* creditTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22761D2C93FC00CB35E2 /* creditTests.swift */; };
 		15CA22821D2C93FC00CB35E2 /* creditUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22811D2C93FC00CB35E2 /* creditUITests.swift */; };
+		15CA22911D2CA3A300CB35E2 /* service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CA228F1D2CA3A300CB35E2 /* service.storyboard */; };
+		15CA22941D2CA3D800CB35E2 /* credit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CA22921D2CA3D800CB35E2 /* credit.storyboard */; };
+		15CA22961D2CA4C300CB35E2 /* ServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		15CA227D1D2C93FC00CB35E2 /* creditUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = creditUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CA22811D2C93FC00CB35E2 /* creditUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditUITests.swift; sourceTree = "<group>"; };
 		15CA22831D2C93FC00CB35E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CA22901D2CA3A300CB35E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/service.storyboard; sourceTree = "<group>"; };
+		15CA22931D2CA3D800CB35E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/credit.storyboard; sourceTree = "<group>"; };
+		15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				15CA22611D2C93FC00CB35E2 /* AppDelegate.swift */,
 				15CA22631D2C93FC00CB35E2 /* ViewController.swift */,
 				15CA22651D2C93FC00CB35E2 /* Main.storyboard */,
+				15CA22921D2CA3D800CB35E2 /* credit.storyboard */,
+				15CA228F1D2CA3A300CB35E2 /* service.storyboard */,
 				15CA22681D2C93FC00CB35E2 /* Assets.xcassets */,
 				15CA226A1D2C93FC00CB35E2 /* LaunchScreen.storyboard */,
 				15CA226D1D2C93FC00CB35E2 /* Info.plist */,
+				15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */,
 			);
 			path = credit;
 			sourceTree = "<group>";
@@ -232,8 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CA22941D2CA3D800CB35E2 /* credit.storyboard in Resources */,
 				15CA226C1D2C93FC00CB35E2 /* LaunchScreen.storyboard in Resources */,
 				15CA22691D2C93FC00CB35E2 /* Assets.xcassets in Resources */,
+				15CA22911D2CA3A300CB35E2 /* service.storyboard in Resources */,
 				15CA22671D2C93FC00CB35E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15CA22961D2CA4C300CB35E2 /* ServiceTableViewController.swift in Sources */,
 				15CA22641D2C93FC00CB35E2 /* ViewController.swift in Sources */,
 				15CA22621D2C93FC00CB35E2 /* AppDelegate.swift in Sources */,
 			);
@@ -310,6 +322,22 @@
 				15CA226B1D2C93FC00CB35E2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		15CA228F1D2CA3A300CB35E2 /* service.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CA22901D2CA3A300CB35E2 /* Base */,
+			);
+			name = service.storyboard;
+			sourceTree = "<group>";
+		};
+		15CA22921D2CA3D800CB35E2 /* credit.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CA22931D2CA3D800CB35E2 /* Base */,
+			);
+			name = credit.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -487,6 +515,7 @@
 				15CA22881D2C93FC00CB35E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15CA22891D2C93FC00CB35E2 /* Build configuration list for PBXNativeTarget "creditTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +524,7 @@
 				15CA228B1D2C93FC00CB35E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15CA228C1D2C93FC00CB35E2 /* Build configuration list for PBXNativeTarget "creditUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +533,7 @@
 				15CA228E1D2C93FC00CB35E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

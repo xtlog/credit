@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IxW-zi-4BD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--在线服务-->
+        <scene sceneID="nDT-Dh-t93">
+            <objects>
+                <tableViewController id="oGd-wZ-Bmp" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="y0a-TN-cn6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0om-eQ-jzF">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0om-eQ-jzF" id="PzB-RY-RSp">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="oGd-wZ-Bmp" id="c0f-6Z-l9N"/>
+                            <outlet property="delegate" destination="oGd-wZ-Bmp" id="cGk-qh-2xl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="在线服务" id="wnd-Pj-abM"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="im6-iW-wC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="250" y="1093"/>
+        </scene>
+        <!--在线服务-->
+        <scene sceneID="upv-l9-abs">
+            <objects>
+                <navigationController id="IxW-zi-4BD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="在线服务" image="idcard" id="3Mf-XH-oGE"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rtE-lM-fTb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="oGd-wZ-Bmp" kind="relationship" relationship="rootViewController" id="gT1-aA-6lX"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yWs-6i-k5Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-458" y="1083"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="idcard" width="43" height="31"/>
+    </resources>
+</document>
