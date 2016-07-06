@@ -3,58 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--  公司简介-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="credit" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="thF-2T-DmQ">
-                                <rect key="frame" x="20" y="64" width="560" height="487"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">       中诚信源征信有限公司（以下简称"中诚信源"）是一个专业提供个人征信、企业征信服务的现代化征信机构，公司注册资金5000万元，公司总部设在首都北京，业务覆盖全国各地。
-
-       中诚信源自2013年成立以来，一直致力于为广大客户提供专业、权威、可靠的个人和企业征信服务，以帮助客户在激烈的市场竞争中规避各种经营风险，实现有效的经营管理。中诚信源采用最新的HADOOP技术、内存数据库技术以及多种ETL数据抽取转化加载工具，以及网络爬虫技术，从国家公开数据源以及互联网上湖区全方位的信息，通过数据建模和建业数据模型，多多种海量数据进行清晰、分析、存储，最终向客户提供多维度信息认证、信息查询及数据分析成果。鉴于服务的专业、高效，全国几百家客户和中诚信源建立了业务合作，共同协作防范业务中潜在风险的发生，保障客户业务的顺利开展。 
-
-       中诚信源拥有一支年轻化、专业化和国际化的高素质征信团队，公司团队本着“ 诚信、创新、卓越、共赢”的企业理念，愿为中国信用体系的建立贡献自己的一份力量，在全力促进行业蓬勃健康发展的同时推动建立高效运行的社会征信体系，让诚信企业名扬天下，失信商家回归理性，让欺诈行为寸步难行，经济市场更加和谐。
-</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="thF-2T-DmQ" secondAttribute="bottom" id="3mf-PS-X2A"/>
-                            <constraint firstItem="thF-2T-DmQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9rs-0H-Ety"/>
-                            <constraint firstItem="thF-2T-DmQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="PU8-FH-Ce4"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="thF-2T-DmQ" secondAttribute="trailing" id="VmG-FT-hf1"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" title="  公司简介" id="JCR-Mt-5eC"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1912" y="289"/>
-        </scene>
-        <!--我的-->
-        <scene sceneID="HXU-id-D8j">
-            <objects>
-                <tableViewController id="5Nc-L5-W7O" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="我的" id="1Mm-Vx-vGI"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6j9-er-2EO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1780" y="1083"/>
-        </scene>
         <!--我的-->
         <scene sceneID="qLr-Kl-cJZ">
             <objects>
@@ -65,12 +15,31 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="5Nc-L5-W7O" kind="relationship" relationship="rootViewController" id="9Pn-Ka-9TQ"/>
+                        <segue destination="CTd-lr-Gs9" kind="relationship" relationship="rootViewController" id="LEc-BC-huX"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sfz-5j-efn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1064" y="1077"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="5PD-ne-Csb">
+            <objects>
+                <viewController id="CTd-lr-Gs9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bKy-A8-Sf2"/>
+                        <viewControllerLayoutGuide type="bottom" id="zOc-v1-h3e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vee-eo-LcK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="我的" id="sqK-ba-mrZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wta-mE-iDm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1776" y="1077"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DUM-FI-ttB">
@@ -104,12 +73,46 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="XuO-pW-Dic"/>
+                        <segue destination="nmN-eM-4pt" kind="relationship" relationship="rootViewController" id="DWd-xF-0qb"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Udl-Mh-MHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1095" y="308"/>
+        </scene>
+        <!--公司简介-->
+        <scene sceneID="vMt-p7-SoI">
+            <objects>
+                <viewController id="nmN-eM-4pt" customClass="ViewController" customModule="credit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Q10-WX-pg3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Apn-0b-RbN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g7q-cd-JkQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgs-Pg-E7U">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cgs-Pg-E7U" firstAttribute="centerX" secondItem="g7q-cd-JkQ" secondAttribute="centerX" id="88y-fE-O53"/>
+                            <constraint firstItem="cgs-Pg-E7U" firstAttribute="width" secondItem="g7q-cd-JkQ" secondAttribute="width" id="pHP-FH-9lE"/>
+                            <constraint firstItem="cgs-Pg-E7U" firstAttribute="centerY" secondItem="g7q-cd-JkQ" secondAttribute="centerY" id="r13-sz-joh"/>
+                            <constraint firstItem="cgs-Pg-E7U" firstAttribute="height" secondItem="g7q-cd-JkQ" secondAttribute="height" id="zBf-6R-MKv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="公司简介" id="0Ur-54-7kB"/>
+                    <connections>
+                        <outlet property="webview" destination="cgs-Pg-E7U" id="3O1-la-6fJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sxf-QI-iGN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="308"/>
         </scene>
         <!--service-->
         <scene sceneID="wEH-qJ-ghw">

@@ -17,6 +17,8 @@
 		15CA22911D2CA3A300CB35E2 /* service.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CA228F1D2CA3A300CB35E2 /* service.storyboard */; };
 		15CA22941D2CA3D800CB35E2 /* credit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CA22921D2CA3D800CB35E2 /* credit.storyboard */; };
 		15CA22961D2CA4C300CB35E2 /* ServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */; };
+		15CA22991D2CAB7E00CB35E2 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */; };
+		15CA229B1D2CAF6A00CB35E2 /* CreditWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		15CA22901D2CA3A300CB35E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/service.storyboard; sourceTree = "<group>"; };
 		15CA22931D2CA3D800CB35E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/credit.storyboard; sourceTree = "<group>"; };
 		15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewController.swift; sourceTree = "<group>"; };
+		15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
+		15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditWebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				15CA226A1D2C93FC00CB35E2 /* LaunchScreen.storyboard */,
 				15CA226D1D2C93FC00CB35E2 /* Info.plist */,
 				15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */,
+				15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */,
+				15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */,
 			);
 			path = credit;
 			sourceTree = "<group>";
@@ -271,8 +277,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				15CA22961D2CA4C300CB35E2 /* ServiceTableViewController.swift in Sources */,
+				15CA22991D2CAB7E00CB35E2 /* ServiceTableViewCell.swift in Sources */,
 				15CA22641D2C93FC00CB35E2 /* ViewController.swift in Sources */,
 				15CA22621D2C93FC00CB35E2 /* AppDelegate.swift in Sources */,
+				15CA229B1D2CAF6A00CB35E2 /* CreditWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,23 +35,28 @@ class ServiceTableViewController: UITableViewController {
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 1
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return datasource.count
     }
 
-    /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ServiceTableViewCell
+        
+        cell.title.text = datasource[indexPath.row]
+        cell.titleImg.image = UIImage(named: images[indexPath.row])
+        cell.info.text = infos[indexPath.row]
+        
+        cell.titleImg.layer.cornerRadius = cell.titleImg.frame.size.width/3
+        cell.titleImg.clipsToBounds = true
 
         // Configure the cell...
 
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.

@@ -6,16 +6,6 @@
     </dependencies>
     <scenes>
         <!--征信业务-->
-        <scene sceneID="FR1-FC-JGt">
-            <objects>
-                <tableViewController id="5VK-un-aZm" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="征信业务" id="3TA-zV-KzJ"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SeT-pu-Dyy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1548" y="-488"/>
-        </scene>
-        <!--征信业务-->
         <scene sceneID="wpH-Y9-IVp">
             <objects>
                 <navigationController id="vEH-wy-jQf" sceneMemberID="viewController">
@@ -26,12 +16,46 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="5VK-un-aZm" kind="relationship" relationship="rootViewController" id="IfJ-dC-Br6"/>
+                        <segue destination="EXj-Ab-j56" kind="relationship" relationship="rootViewController" id="ujQ-Tc-sL2"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tew-eW-aOd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="776" y="-488"/>
+        </scene>
+        <!--征信业务-->
+        <scene sceneID="IpJ-hm-jyz">
+            <objects>
+                <viewController id="EXj-Ab-j56" customClass="CreditWebViewController" customModule="credit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rPr-1J-mAd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Sxc-dO-D1f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zyB-d9-8IR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="euD-OV-ELH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="euD-OV-ELH" firstAttribute="centerX" secondItem="zyB-d9-8IR" secondAttribute="centerX" id="1DV-I9-DXU"/>
+                            <constraint firstItem="euD-OV-ELH" firstAttribute="height" secondItem="zyB-d9-8IR" secondAttribute="height" id="QMT-39-sd2"/>
+                            <constraint firstItem="euD-OV-ELH" firstAttribute="centerY" secondItem="zyB-d9-8IR" secondAttribute="centerY" id="VDc-w4-7e7"/>
+                            <constraint firstItem="euD-OV-ELH" firstAttribute="width" secondItem="zyB-d9-8IR" secondAttribute="width" id="fTc-wa-90d"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="征信业务" id="eCx-QE-LK7"/>
+                    <connections>
+                        <outlet property="webview" destination="euD-OV-ELH" id="N9u-oN-XCa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mdb-8K-ubM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1538" y="-488"/>
         </scene>
     </scenes>
     <resources>

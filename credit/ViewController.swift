@@ -10,7 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var webview: UIWebView!
     override func viewDidLoad() {
+        
+        webview.loadRequest(NSURLRequest(URL: NSURL(string:"http://211.147.7.47/zcxy/app/company_info.jsp")!))
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
