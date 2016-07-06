@@ -9,6 +9,12 @@
 import UIKit
 
 class ServiceTableViewController: UITableViewController {
+    
+    var datasource = ["身份证认证","人像对比","员工背景调查"]
+    
+    var images = ["card_auth", "photo_merge", "staff_info"]
+    
+    var infos = ["只要手动输入身份证号码和姓名就能联网验证身份信息。","通过身份证提取相关信息，并通过活体检测关联验证身份信息。","身份证结合学历、学位信息。"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
