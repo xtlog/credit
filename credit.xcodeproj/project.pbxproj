@@ -19,6 +19,7 @@
 		15CA22961D2CA4C300CB35E2 /* ServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */; };
 		15CA22991D2CAB7E00CB35E2 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */; };
 		15CA229B1D2CAF6A00CB35E2 /* CreditWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */; };
+		15E16BD41D36FB850092406C /* IdcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E16BD31D36FB850092406C /* IdcardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewController.swift; sourceTree = "<group>"; };
 		15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
 		15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditWebViewController.swift; sourceTree = "<group>"; };
+		15E16BD31D36FB850092406C /* IdcardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdcardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				15CA22951D2CA4C300CB35E2 /* ServiceTableViewController.swift */,
 				15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */,
 				15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */,
+				15E16BD31D36FB850092406C /* IdcardViewController.swift */,
 			);
 			path = credit;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15CA22961D2CA4C300CB35E2 /* ServiceTableViewController.swift in Sources */,
+				15E16BD41D36FB850092406C /* IdcardViewController.swift in Sources */,
 				15CA22991D2CAB7E00CB35E2 /* ServiceTableViewCell.swift in Sources */,
 				15CA22641D2C93FC00CB35E2 /* ViewController.swift in Sources */,
 				15CA22621D2C93FC00CB35E2 /* AppDelegate.swift in Sources */,

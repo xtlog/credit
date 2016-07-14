@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IxW-zi-4BD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="IxW-zi-4BD">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--在线服务-->
@@ -21,19 +22,19 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="79"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XdF-A2-CP1">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="card_auth" translatesAutoresizingMaskIntoConstraints="NO" id="XdF-A2-CP1">
                                             <rect key="frame" x="15" y="10" width="60" height="60"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="服务名称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxa-XF-K53">
-                                            <rect key="frame" x="83" y="10" width="205" height="21"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="只要手动输入身份证号码和姓名就能联网验证身份信息。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sho-5r-naJ">
+                                            <rect key="frame" x="83" y="29" width="300" height="42"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="服务说明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sho-5r-naJ">
-                                            <rect key="frame" x="83" y="30" width="300" height="42"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="身份证认证" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cxa-XF-K53">
+                                            <rect key="frame" x="83" y="10" width="205" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -42,6 +43,7 @@
                                     <outlet property="info" destination="Sho-5r-naJ" id="DtQ-jd-SlR"/>
                                     <outlet property="title" destination="cxa-XF-K53" id="iTP-eL-36o"/>
                                     <outlet property="titleImg" destination="XdF-A2-CP1" id="Jxc-29-Iye"/>
+                                    <segue destination="5kf-zn-jkF" kind="show" id="5Vb-xv-hhu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -55,6 +57,58 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="im6-iW-wC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="250" y="1093"/>
+        </scene>
+        <!--Idcard View Controller-->
+        <scene sceneID="nt9-CF-I30">
+            <objects>
+                <viewController id="5kf-zn-jkF" customClass="IdcardViewController" customModule="credit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AGE-3I-bYO"/>
+                        <viewControllerLayoutGuide type="bottom" id="aZy-uR-dK2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WEr-lf-Ups">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="xhf-Fd-cSP">
+                                <rect key="frame" x="20" y="167" width="560" height="130"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aC7-9p-Wec">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入身份证号" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V3Z-6t-Idn">
+                                        <rect key="frame" x="0.0" y="50" width="560" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9r-cR-otF">
+                                        <rect key="frame" x="0.0" y="100" width="560" height="30"/>
+                                        <color key="backgroundColor" red="0.12117258811536302" green="0.71715723352915495" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="验证"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="aC7-9p-Wec" firstAttribute="leading" secondItem="xhf-Fd-cSP" secondAttribute="leading" id="BUb-Wv-gNw"/>
+                                    <constraint firstAttribute="trailing" secondItem="aC7-9p-Wec" secondAttribute="trailing" id="kvJ-0h-vjO"/>
+                                    <constraint firstItem="V3Z-6t-Idn" firstAttribute="leading" secondItem="xhf-Fd-cSP" secondAttribute="leading" id="vid-o5-nqs"/>
+                                    <constraint firstAttribute="trailing" secondItem="V3Z-6t-Idn" secondAttribute="trailing" id="xWY-MC-Cmg"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="xhf-Fd-cSP" secondAttribute="trailing" id="2Y6-1d-biL"/>
+                            <constraint firstItem="xhf-Fd-cSP" firstAttribute="leading" secondItem="WEr-lf-Ups" secondAttribute="leadingMargin" id="IpS-Qc-8NF"/>
+                            <constraint firstItem="xhf-Fd-cSP" firstAttribute="top" secondItem="AGE-3I-bYO" secondAttribute="bottom" constant="103" id="hxU-4I-Cm3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xje-Lj-yG6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="1083"/>
         </scene>
         <!--在线服务-->
         <scene sceneID="upv-l9-abs">
@@ -76,6 +130,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="card_auth" width="128" height="128"/>
         <image name="idcard" width="43" height="31"/>
     </resources>
 </document>
