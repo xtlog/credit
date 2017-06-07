@@ -20,6 +20,18 @@
 		15CA22991D2CAB7E00CB35E2 /* ServiceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */; };
 		15CA229B1D2CAF6A00CB35E2 /* CreditWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */; };
 		15E16BD41D36FB850092406C /* IdcardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E16BD31D36FB850092406C /* IdcardViewController.swift */; };
+		30005BD1B09FD69A4BEB427B /* Pods_credit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E04D60E9B91843E4467EF95 /* Pods_credit.framework */; };
+		3E2128D11EB871A6006DD854 /* CommonJsonObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2128D01EB871A6006DD854 /* CommonJsonObj.swift */; };
+		3E6CAEFC1ECEDCCA004761F2 /* IdCardPhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CAEFB1ECEDCCA004761F2 /* IdCardPhotoDetailViewController.swift */; };
+		3E6CAEFE1ECEE36B004761F2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6CAEFD1ECEE36B004761F2 /* Common.swift */; };
+		3E7D07331EAF320A007DC35E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7D07321EAF320A007DC35E /* LoginViewController.swift */; };
+		3E83AEDA1ECAE693000FFE8B /* BuyedServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E83AED91ECAE693000FFE8B /* BuyedServiceController.swift */; };
+		3E9D66701ED3C5650077372C /* IdCPAuditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D666F1ED3C5650077372C /* IdCPAuditViewController.swift */; };
+		3EA1CD1A1ECC4C2B00AA8235 /* IdcardPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA1CD191ECC4C2B00AA8235 /* IdcardPhotoViewController.swift */; };
+		3EADEB121EE78DC800CC8BBF /* BackSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADEB111EE78DC800CC8BBF /* BackSurveyViewController.swift */; };
+		3EADEB141EE7920A00CC8BBF /* BackSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EADEB131EE7920A00CC8BBF /* BackSurveyDetailViewController.swift */; };
+		3EC202841EB0A8CF0094B8DC /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC202831EB0A8CF0094B8DC /* Base64.m */; };
+		3EC202871EB0AA580094B8DC /* DESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EC202861EB0AA580094B8DC /* DESUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +71,23 @@
 		15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceTableViewCell.swift; sourceTree = "<group>"; };
 		15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditWebViewController.swift; sourceTree = "<group>"; };
 		15E16BD31D36FB850092406C /* IdcardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdcardViewController.swift; sourceTree = "<group>"; };
+		2E04D60E9B91843E4467EF95 /* Pods_credit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_credit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36697A29A74DE7D268E82306 /* Pods-credit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-credit/Pods-credit.debug.xcconfig"; sourceTree = "<group>"; };
+		3E2128D01EB871A6006DD854 /* CommonJsonObj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonJsonObj.swift; sourceTree = "<group>"; };
+		3E6CAEFB1ECEDCCA004761F2 /* IdCardPhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdCardPhotoDetailViewController.swift; sourceTree = "<group>"; };
+		3E6CAEFD1ECEE36B004761F2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		3E7D07321EAF320A007DC35E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3E83AED91ECAE693000FFE8B /* BuyedServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyedServiceController.swift; sourceTree = "<group>"; };
+		3E9D666F1ED3C5650077372C /* IdCPAuditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdCPAuditViewController.swift; sourceTree = "<group>"; };
+		3EA1CD191ECC4C2B00AA8235 /* IdcardPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdcardPhotoViewController.swift; sourceTree = "<group>"; };
+		3EADEB111EE78DC800CC8BBF /* BackSurveyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackSurveyViewController.swift; sourceTree = "<group>"; };
+		3EADEB131EE7920A00CC8BBF /* BackSurveyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		3EC202801EB0A8000094B8DC /* credit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "credit-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EC202831EB0A8CF0094B8DC /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		3EC202851EB0A9930094B8DC /* DESUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DESUtils.h; path = ../DESUtils.h; sourceTree = "<group>"; };
+		3EC202861EB0AA580094B8DC /* DESUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtils.m; sourceTree = "<group>"; };
+		3EC202881EB0AC710094B8DC /* Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		B15C87CEE5294B010389240D /* Pods-credit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-credit.release.xcconfig"; path = "Pods/Target Support Files/Pods-credit/Pods-credit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30005BD1B09FD69A4BEB427B /* Pods_credit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +123,8 @@
 				15CA22751D2C93FC00CB35E2 /* creditTests */,
 				15CA22801D2C93FC00CB35E2 /* creditUITests */,
 				15CA225F1D2C93FC00CB35E2 /* Products */,
+				BDA912481B450060DED52177 /* Pods */,
+				D12D97DC3CC81E41EBBDABFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +141,7 @@
 		15CA22601D2C93FC00CB35E2 /* credit */ = {
 			isa = PBXGroup;
 			children = (
+				3EC202851EB0A9930094B8DC /* DESUtils.h */,
 				15CA22611D2C93FC00CB35E2 /* AppDelegate.swift */,
 				15CA22631D2C93FC00CB35E2 /* ViewController.swift */,
 				15CA22651D2C93FC00CB35E2 /* Main.storyboard */,
@@ -121,6 +154,19 @@
 				15CA22981D2CAB7E00CB35E2 /* ServiceTableViewCell.swift */,
 				15CA229A1D2CAF6A00CB35E2 /* CreditWebViewController.swift */,
 				15E16BD31D36FB850092406C /* IdcardViewController.swift */,
+				3EA1CD191ECC4C2B00AA8235 /* IdcardPhotoViewController.swift */,
+				3E7D07321EAF320A007DC35E /* LoginViewController.swift */,
+				3EC202861EB0AA580094B8DC /* DESUtils.m */,
+				3EC202831EB0A8CF0094B8DC /* Base64.m */,
+				3EC202801EB0A8000094B8DC /* credit-Bridging-Header.h */,
+				3EC202881EB0AC710094B8DC /* Base64.h */,
+				3E2128D01EB871A6006DD854 /* CommonJsonObj.swift */,
+				3E83AED91ECAE693000FFE8B /* BuyedServiceController.swift */,
+				3E6CAEFB1ECEDCCA004761F2 /* IdCardPhotoDetailViewController.swift */,
+				3E6CAEFD1ECEE36B004761F2 /* Common.swift */,
+				3E9D666F1ED3C5650077372C /* IdCPAuditViewController.swift */,
+				3EADEB111EE78DC800CC8BBF /* BackSurveyViewController.swift */,
+				3EADEB131EE7920A00CC8BBF /* BackSurveyDetailViewController.swift */,
 			);
 			path = credit;
 			sourceTree = "<group>";
@@ -143,6 +189,23 @@
 			path = creditUITests;
 			sourceTree = "<group>";
 		};
+		BDA912481B450060DED52177 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36697A29A74DE7D268E82306 /* Pods-credit.debug.xcconfig */,
+				B15C87CEE5294B010389240D /* Pods-credit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D12D97DC3CC81E41EBBDABFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E04D60E9B91843E4467EF95 /* Pods_credit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15CA22861D2C93FC00CB35E2 /* Build configuration list for PBXNativeTarget "credit" */;
 			buildPhases = (
+				B96952710A2958E65B320354 /* [CP] Check Pods Manifest.lock */,
 				15CA225A1D2C93FC00CB35E2 /* Sources */,
 				15CA225B1D2C93FC00CB35E2 /* Frameworks */,
 				15CA225C1D2C93FC00CB35E2 /* Resources */,
+				36BD7F55A8CE2932209FF87E /* [CP] Embed Pods Frameworks */,
+				64BAE44D9B9A862932891FB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,21 +272,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = zcxy;
 				TargetAttributes = {
 					15CA225D1D2C93FC00CB35E2 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = FQMV67NMJN;
+						LastSwiftMigration = 0830;
 					};
 					15CA22711D2C93FC00CB35E2 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = FQMV67NMJN;
+						LastSwiftMigration = 0800;
 						TestTargetID = 15CA225D1D2C93FC00CB35E2;
 					};
 					15CA227C1D2C93FC00CB35E2 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = FQMV67NMJN;
+						LastSwiftMigration = 0800;
 						TestTargetID = 15CA225D1D2C93FC00CB35E2;
 					};
 				};
@@ -274,16 +343,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36BD7F55A8CE2932209FF87E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-credit/Pods-credit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64BAE44D9B9A862932891FB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-credit/Pods-credit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96952710A2958E65B320354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		15CA225A1D2C93FC00CB35E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EADEB141EE7920A00CC8BBF /* BackSurveyDetailViewController.swift in Sources */,
+				3E6CAEFC1ECEDCCA004761F2 /* IdCardPhotoDetailViewController.swift in Sources */,
+				3E7D07331EAF320A007DC35E /* LoginViewController.swift in Sources */,
+				3EC202871EB0AA580094B8DC /* DESUtils.m in Sources */,
+				3EA1CD1A1ECC4C2B00AA8235 /* IdcardPhotoViewController.swift in Sources */,
+				3E2128D11EB871A6006DD854 /* CommonJsonObj.swift in Sources */,
+				3E83AEDA1ECAE693000FFE8B /* BuyedServiceController.swift in Sources */,
+				3E6CAEFE1ECEE36B004761F2 /* Common.swift in Sources */,
+				3EADEB121EE78DC800CC8BBF /* BackSurveyViewController.swift in Sources */,
 				15CA22961D2CA4C300CB35E2 /* ServiceTableViewController.swift in Sources */,
+				3E9D66701ED3C5650077372C /* IdCPAuditViewController.swift in Sources */,
 				15E16BD41D36FB850092406C /* IdcardViewController.swift in Sources */,
 				15CA22991D2CAB7E00CB35E2 /* ServiceTableViewCell.swift in Sources */,
 				15CA22641D2C93FC00CB35E2 /* ViewController.swift in Sources */,
 				15CA22621D2C93FC00CB35E2 /* AppDelegate.swift in Sources */,
+				3EC202841EB0A8CF0094B8DC /* Base64.m in Sources */,
 				15CA229B1D2CAF6A00CB35E2 /* CreditWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,8 +496,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -413,8 +543,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -433,6 +565,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -440,23 +573,32 @@
 		};
 		15CA22871D2C93FC00CB35E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36697A29A74DE7D268E82306 /* Pods-credit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = credit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcxy.credit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "credit/credit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		15CA22881D2C93FC00CB35E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15C87CEE5294B010389240D /* Pods-credit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = credit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcxy.credit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "credit/credit-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -468,6 +610,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcxy.creditTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/credit.app/credit";
 			};
 			name = Debug;
@@ -480,6 +623,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcxy.creditTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/credit.app/credit";
 			};
 			name = Release;
@@ -491,6 +635,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcxy.creditUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = credit;
 				USES_XCTRUNNER = YES;
 			};
@@ -503,6 +648,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zcxy.creditUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = credit;
 				USES_XCTRUNNER = YES;
 			};
